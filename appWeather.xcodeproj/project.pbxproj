@@ -16,6 +16,7 @@
 		C97E6D4B27E3674400C067B9 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E6D4A27E3674400C067B9 /* WeatherModel.swift */; };
 		C9BF3C8527EAF06B000CFCA1 /* SecondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BF3C8427EAF06B000CFCA1 /* SecondTableViewCell.swift */; };
 		C9BF3C8727EB1F05000CFCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9BF3C8627EB1F05000CFCA1 /* LaunchScreen.storyboard */; };
+		C9BF3C8927EBEA92000CFCA1 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C9BF3C8827EBEA92000CFCA1 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C97E6D4A27E3674400C067B9 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		C9BF3C8427EAF06B000CFCA1 /* SecondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewCell.swift; sourceTree = "<group>"; };
 		C9BF3C8627EB1F05000CFCA1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C9BF3C8827EBEA92000CFCA1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				C97E6D3727E2C00A00C067B9 /* Assets.xcassets */,
 				C9BF3C8627EB1F05000CFCA1 /* LaunchScreen.storyboard */,
 				C97E6D3C27E2C00A00C067B9 /* Info.plist */,
+				C9BF3C8827EBEA92000CFCA1 /* README.md */,
 			);
 			path = appWeather;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9BF3C8927EBEA92000CFCA1 /* README.md in Resources */,
 				C9BF3C8727EB1F05000CFCA1 /* LaunchScreen.storyboard in Resources */,
 				C97E6D3827E2C00A00C067B9 /* Assets.xcassets in Resources */,
 			);
