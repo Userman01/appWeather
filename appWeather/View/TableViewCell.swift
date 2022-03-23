@@ -21,15 +21,18 @@ class TableViewCell: UITableViewCell {
         fatalError("init(coder:) has not been implemented")
     }
     func setTextLabel(WeatherModel: WeatherModel){
-        self.label.text = "Температура: \(String(WeatherModel.fact.temp))"
+        if WeatherModel.fact.temp > 0 {
+            self.label.text = "Температура, ℃: +\(String(WeatherModel.fact.temp))"
+        } else {
+            self.label.text = "Температура, ℃: \(String(WeatherModel.fact.temp))"
+        }
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        self.label.frame = CGRect(x: contentView.frame.width/1.6, y: 0, width: contentView.frame.width, height: contentView.frame.height)
+        self.label.frame = CGRect(x: contentView.frame.width/1.8, y: 0, width: contentView.frame.width, height: contentView.frame.height)
     }
-    
-    
+
 }
 
    

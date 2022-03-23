@@ -25,6 +25,15 @@ class SecondTableViewCell: UITableViewCell {
     
     func setTextLabel(textOne:String, textTwo:String){
         self.labelOne.text = textOne
+        if textTwo.first == "-" {
+            self.labelTwo.text = textTwo
+        } else {
+            self.labelTwo.text = "+" + textTwo
+        }
+    }
+    
+    func setTextLabelSpeed(textOne:String, textTwo:String){
+        self.labelOne.text = textOne
         self.labelTwo.text = textTwo
     }
     

@@ -7,6 +7,8 @@
 
 import Foundation
 
+//MARK: -ApiType
+
 enum ApiType{
     case Yakutsk
     case Moskva
@@ -45,6 +47,8 @@ enum ApiType{
         return request
     }
 }
+
+//MARK: -ApiManager
 
 class ApiManager{
     
